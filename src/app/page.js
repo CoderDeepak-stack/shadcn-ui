@@ -1,6 +1,7 @@
 // import React from "react";
 import { Button } from "@/components/ui/button"
 import { DialogDemo } from "@/components/ui/dialogdemo"
+import { DrawerDemo } from "@/components/ui/drawerdemo"
 import { cn } from "@/lib/utils"
 import { Link } from "lucide-react"
 
@@ -25,6 +26,10 @@ const Page = () => {
 
       <section>
         <DialogDemo/>
+      </section>
+
+      <section>
+        <DrawerDemo/>
       </section>
     </>
   )
