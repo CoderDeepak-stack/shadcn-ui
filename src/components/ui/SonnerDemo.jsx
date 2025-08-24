@@ -19,7 +19,7 @@ const SonnerDemo = () => {
             toast.success("Hi babu")
         }}
         >
-            Success
+            Successs
         </Button>
         </>
     )
