@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button"
 import {CarouselDemo} from "@/components/ui/CarouselDemo"
 import { DialogDemo } from "@/components/ui/dialogdemo"
 import DrawerDemo from "@/components/ui/DrawerDemo"
+import { ModeToggle } from "@/components/ui/ModeToggle"
 import SheetDemo from "@/components/ui/SheetDemo"
 import SonnerDemo from "@/components/ui/SonnerDemo"
 import { cn } from "@/lib/utils"
@@ -13,6 +14,10 @@ const Page = () => {
   return (
     <>
     <section className="grid place-items-center">
+      <h1 className="text-vinod">Hello Dark Mode</h1>
+      <section>
+        <ModeToggle/>
+      </section>
       <p className = {cn(
         "bg-black text-white", 
         "bg-amber-300 text-blue-700"
