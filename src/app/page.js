@@ -4,6 +4,7 @@ import {CarouselDemo} from "@/components/ui/CarouselDemo"
 import { DialogDemo } from "@/components/ui/dialogdemo"
 import DrawerDemo from "@/components/ui/DrawerDemo"
 import { ModeToggle } from "@/components/ui/ModeToggle"
+import PasswordValidator from "@/components/ui/PasswordValidator"
 import SheetDemo from "@/components/ui/SheetDemo"
 import SonnerDemo from "@/components/ui/SonnerDemo"
 import { cn } from "@/lib/utils"
@@ -51,6 +52,10 @@ const Page = () => {
 
        <section>
         <SonnerDemo/>
+      </section>
+
+      <section>
+        <PasswordValidator/>
       </section>
 
     </section>
