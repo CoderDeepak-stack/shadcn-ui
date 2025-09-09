@@ -1,4 +1,5 @@
 // import React from "react";
+import Component from "@/components/comp-467"
 import { Button } from "@/components/ui/button"
 import { DialogDemo } from "@/components/ui/dialogdemo"
 import { DrawerDemo } from "@/components/ui/drawerdemo"
@@ -30,6 +31,10 @@ const Page = () => {
 
       <section>
         <DrawerDemo/>
+      </section>
+
+      <section>
+        <Component/>
       </section>
     </>
   )
